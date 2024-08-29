@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+:root {
+    --main-color:#1E202B;
+    --secound-color :#323544;
+    --third-color :#2D303D;
+    --four-color : #262936;
+    --text-color :#bfc1c8;
+    --white: #ffffff;
+    --main-text-color:#009ad8;
+    
+}
+
+nav{
+    background-color: var(--main-color);
+}
+.navbar-brand p{
+    color: var(--text-color);
+}
+.textColor a{
+    color: var(--white);
+}
+
+
+.navbar-nav .nav-links{
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-weight: 400;
+    margin: 4px;
+    padding: 2px 25px;
+    border: 2px transparent solid;
+    border-radius: 30px;
+}
+
+.navbar-nav .nav-links:hover{
+    color: var(--main-text-color);
+    border-color: var(--main-text-color);
+
+
+}
+
+
+
+
+
+.find-location input[type ="text"]{
+    background-color: var(--main-color);
+    outline: none;
+    border: none;
+}
+
+.app-container{
+    background-image: url(../imges/banner.png);
+    height: 50vh;
+}  & {
+    background-color: #1E202B !important;
+}
+#today-date{
+    background-color: var(--third-color);
+}
+
+#today{
+    background-color: var(--secound-color);
+}
+
+.item-footer{
+    background-color: var(--secound-color);
+}
+
+.bg-color-day-tomorrow{
+    background-color: var(--main-color);
+}
+
+.bg-color-next-tomorrow{
+    background-color:var(--third-color) ;
+}
+
+
+
+
+.find-location{
+    position: relative;
+}
+.find-location input[type="button"] {
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    background-color: var(--main-text-color);
+    border-radius: 50px;
+    border: 0;
+    color: var(--white);
+    width: 100px;
+    height: 50px;
+    outline: 0;
+}
+
+footer{
+    background-color: var(--four-color);
+}
+footer .textCopy{
+    color: var(--text-color);
+}
+footer .textCopy a{
+    text-decoration: none;
+    color: var(--main-text-color);
+}
